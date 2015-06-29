@@ -1,0 +1,9 @@
+<div class="page-header">
+  <h1>New Submittal <small>Go You!</small></h1>
+</div>
+
+<%= simple_form_for @submittal do |f| %>
+  <%= f.input :photo %>
+
+  <%= f.submit class: 'btn btn-primary btn-lg' %>
+<% end %>
