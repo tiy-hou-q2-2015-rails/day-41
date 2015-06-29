@@ -1,4 +1,4 @@
-Day 40 - Intro to ecommerce
+Day 41 - eMails and eCommerce
 ===============
 
 Quiz:
@@ -18,12 +18,10 @@ Notes: [Rails Guides Validations](http://guides.rubyonrails.org/active_record_va
 Today
 -----
 
+1. Sending emails
 1. [Stripe API](https://stripe.com/docs/api#intro)
-2. [Http.rb gem](https://github.com/httprb/http.rb)
-3. REST Server
-4. [Payola Gem](https://github.com/peterkeen/payola)
-5. Sending emails
-6. Stripe checkout (maybe)
+1. [Stripe Ruby Gem](https://github.com/stripe/stripe-ruby)
+1. [Payola Gem](https://github.com/peterkeen/payola)
 
 Homework
 --------
