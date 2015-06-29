@@ -12,12 +12,15 @@ class SubmittalsController < ApplicationController
   end
 
   def create
-    @submittal = Submittal.new params.require(:submittal).permit(:photo)
+    @submittal = Submittal.new params.require(:submittal).permit(:photo, :price, :name, :permalink)
     if @submittal.save
       PhotoMailer.submitted(@submittal).deliver
       redirect_to submittal_path(id: @submittal.id), notice: "Created! 👍"
     else
       render :new
     end
+  end
+
+  def thanks
   end
 end

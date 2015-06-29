@@ -10,4 +10,10 @@ class PhotoMailer < ApplicationMailer
 
     mail to: "jesse@theironyard.com"
   end
+
+  def receipt(sale)
+
+    @submittal = sale.product
+    mail to: sale.email
+  end
 end

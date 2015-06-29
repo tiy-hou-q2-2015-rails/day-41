@@ -2,4 +2,12 @@
   <h1>Submittal <%= @submittal.id %></h1>
 </div>
 
-<%= image_tag @submittal.photo.url(:large), class: "img-responsive img-thumbnail" %>
+<div class="row">
+  <div class="col-xs-8">
+    <%= image_tag @submittal.photo.url(:large), class: "img-responsive img-thumbnail" %>
+  </div>
+  <div class="col-xs-4">
+    <h5>Buy this print</h5>
+    <%= render 'payola/transactions/checkout', sellable: @submittal %>
+  </div>
+</div>

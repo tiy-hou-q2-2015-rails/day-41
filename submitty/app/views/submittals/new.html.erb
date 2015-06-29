@@ -4,6 +4,9 @@
 
 <%= simple_form_for @submittal do |f| %>
   <%= f.input :photo %>
+  <%= f.input :price, label: "Price in cents", hint: "Enter in cents. $5 means 500" %>
+  <%= f.input :name %>
+  <%= f.input :permalink, hint: "like-this" %>
 
   <%= f.submit class: 'btn btn-primary btn-lg' %>
 <% end %>

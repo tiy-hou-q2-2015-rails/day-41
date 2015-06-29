@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  mount Payola::Engine => '/payola', as: :payola
   root 'submittals#index'
   post 'submittals' => 'submittals#create', as: :submittals
   get 'submittals/new' => 'submittals#new', as: :new_submittal
   get 'submittals/:id' => 'submittals#show', as: :submittal
 
+  get '/thanks' => 'submittals#thanks'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
