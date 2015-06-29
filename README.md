@@ -4,12 +4,13 @@ Day 41 - eMails and eCommerce
 Today
 -----
 
-1. Sending emails
+1. [Sending emails](http://guides.rubyonrails.org/action_mailer_basics.html)
 1. [Stripe API](https://stripe.com/docs/api#intro)
 1. [Stripe Ruby Gem](https://github.com/stripe/stripe-ruby)
+1. [Payola](http://payola.io)
 1. [Payola Gem](https://github.com/peterkeen/payola)
 
-Homework
+Homework (optional)
 --------
 
 1. Create a Rails app with a Product (use the proper money method of price and
