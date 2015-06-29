@@ -1,0 +1,9 @@
+<h1>Photo Uploaded</h1>
+
+<p>
+  A photo has been uploaded on Submitty.
+
+  <%= link_to 'View the photo', submittal_url(id: @submittal.id) %>.
+</p>
+
+<%= image_tag @submittal.photo.url(:large) %>
