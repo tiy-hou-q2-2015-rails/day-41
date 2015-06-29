@@ -1,20 +1,6 @@
 Day 41 - eMails and eCommerce
 ===============
 
-Quiz:
-----
-
-We do not want to store decimals for money, because computers. Complete the
-Rails class Product in the "money" rails app such that:
-
-1. validates price is postive
-2. defines both `price=` and `price`
-3. Only stores `price_in_cents`
-
-There is a test for Product, so you can make sure it works by running `rake`
-
-Notes: [Rails Guides Validations](http://guides.rubyonrails.org/active_record_validations.html#numericality)
-
 Today
 -----
 
